@@ -51,3 +51,28 @@ footer {
   transition: all 0.3s ease-in-out;
   padding: 2rem;
 }
+
+/* Estilos para la niña con brackets */
+.nina-saludando {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.nina-saludando img {
+  max-width: 150px;
+  height: auto;
+}
+
+.mensaje-bienvenida {
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
